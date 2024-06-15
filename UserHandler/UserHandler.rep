@@ -1,0 +1,12 @@
+#pragma once
+
+#include <QtCore>
+#include <QDateTime>
+
+POD UserHandler(int count, QDateTime time);
+
+class UserHandler
+{
+    PROP(UserHandler userHandler READONLY)
+    SIGNAL(userActive())
+};
